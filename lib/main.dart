@@ -48,7 +48,7 @@ class _HomepageState extends State<Homepage> {
                     ],
                   ),
                 ),
-                SizedBox(height:10,),
+                SizedBox(height:10),
                 Container(
                   width: MediaQuery.of(context).size.width,
                   height: 70,
@@ -56,7 +56,6 @@ class _HomepageState extends State<Homepage> {
                       borderRadius: BorderRadius.circular(5)),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-
                     children: [
                       Text('AND',style: TextStyle(color: Colors.white,fontSize: 40,)),
                       Text('350',style: TextStyle(color: Colors.white,fontSize: 10,fontWeight:FontWeight.bold),)
